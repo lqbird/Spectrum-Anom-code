@@ -66,3 +66,9 @@ overwriting existing files. The script prints the selected input and output path
 | `baseline_results_with_ours_transformer_feat.csv` | Per-method thresholds and point-level and event-level metrics |
 | `baseline_ours_f1_bar.png`, `baseline_ours_auc_bar.png` | Summary plots for F1 and AUC |
 | `roc_pr_*.png`, `anomaly_segments_*.png`, `scores_*.png` | Per-method curves, event timelines, and anomaly scores |
+
+## License
+
+The Python and MATLAB source code is licensed under the [MIT License](LICENSE).
+The derived feature time-series CSVs are licensed under [CC BY 4.0](abnormal_timeseries_csv/LICENSE).
+The original raw I/Q recordings are not included in this repository and are not covered by either license.
